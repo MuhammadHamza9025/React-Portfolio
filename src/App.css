@@ -267,7 +267,9 @@ font-weight: bolder;  color: rgb(240, 62, 30);
 display: flex;
 /* margin-top: 5em; */
 position: relative;
+margin-left: -2em;
 height: 70vh;
+justify-content: flex-start;
   }
   .name{
     font-size: 2em;
@@ -731,9 +733,13 @@ opacity: 0.7;
 }
 @media screen and (max-width:500px){
 
-  .git button{width: 100%;
-  height: 100%;}
+  .git button{width: 8em;
+  height: 50%;
+}
 
+.git button {
+  font-size: 10px;
+}
 }
 
 .footer
