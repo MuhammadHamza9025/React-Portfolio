@@ -20,14 +20,14 @@ export default function Projects({mouse}) {
      
       
   return (
-    <div className='Projects mainabout' id='Projects' data-aos='fade-right' >
+    <div className='Projects mainabout' id='Projects' data-aos='fade-up' >
        
-    <h1 data-aos='flip-right'>Projects</h1>
+    <h1 data-aos='flip-up'>Projects</h1>
 
     <div className='proimages '>{Array.map((val)=>{
 return(
      <>
-      <div className="imagess"><img src={val.image} alt=""  onClick={()=>mouse(val)} />  
+      <div className="imagess"><img src={val.image} alt=""  onClick={()=>mouse(val)} key={val.id} />  
       <div className="info">{val.title}
       
       <div className="git">

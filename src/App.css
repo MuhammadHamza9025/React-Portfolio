@@ -63,27 +63,59 @@ margin-right: 2em;
   cursor: pointer;
   display: none;
   
+}.ham2{
+  width: 25px;
+
+  margin: 5px;
+  margin-right: 2em;
+  cursor: pointer;
+ position: relative;
+ z-index: 4000;
+ transition: 1s;
+  display: none;
+  
 }
-@media screen and (max-width:700px)
+
+.hamburger i{
+  font-size: 2.2em;
+  transition: 1s;
+  display: none;
+}
+@media screen and (max-width:500px)
 {
+  .hamburger i
+  {
+    display: block;
+    font-size: 1.7em;
+    transition: 1s;
+  }
+  .ham2{display: block;}
 
   .ham{
     display: block;
+    position: relative;
+    z-index: 20000;
 
 
+  }
+  .hamburger{ transition: 1s;}
+  .notopen{
+    display: none;
   }
   .navbar{
     position: fixed;
     width: 100%;
+    height: 100vh;
    
 
   
   }
   .nav{
-    top: 59px;
-    transition: 0.5s ease-in-out;}
+    top: 0px;
+    transition: 0.5s ease-in-out;
+  left: 0px;}
     .notactive{
-      top: -900px;
+      left: -900px;
      }
    .ul{
     position: relative;
@@ -104,12 +136,15 @@ margin-right: 2em;
 
   }
   
+  
 
 .mainhome {
   height: 70vh;}
-  ul li {
+  .ul li {
     /* color: black; */
-
+margin: 2em;
+font-size: x-large;
+font-weight: bold;
   }
   
   

@@ -21,13 +21,13 @@ function App() {
  <>
     
       
- < BrowserRouter>
+ < BrowserRouter basename={process.env.PUBLIC_URL}>
  <Navigation></Navigation>
       
 
 <Routes>
 
-  <Route path='/' element={<Home></Home>}>  </Route>
+  <Route exact path='/' element={<Home></Home>}>  </Route>
 
 </Routes>
 

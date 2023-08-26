@@ -24,8 +24,8 @@ const About = () => {
    <>
  
    <div className="mainabout " id="About" >
-    <h1 data-aos='flip-right'>About Me</h1>
-    <div className="aboutinfo" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
+    <h1 >About Me</h1>
+    <div className="aboutinfo"data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
     <ul data-aos='fade-up'>
        
         <li>Student of Computer Engineering from University of Engineering and Technology Taxila in 5th Semester.</li>
@@ -37,7 +37,7 @@ concepts into functional code, with a strong focus on usability and accessibilit
 <div className="button"><button onClick={Resume}>Resume</button></div>
 
     </ul>
-    <div className="pict" data-aos='fade-' >
+    <div className="pict"  >
         <div className="back"></div>
         <img src={pic2} alt="" /></div>
 

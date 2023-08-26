@@ -27,7 +27,7 @@ const Home = () => {
   return (
  
  < >
- <div className="Home"><div className="mainhome" data-aos="fade-up">
+ <div className="Home"><div className="mainhome" >
 <div className="leftcont"><div className="container">  <div className="content">
     <div className="smalltitle">Welcome Hi ,I'm </div>
     <div className="name"><span>Muhammad Hamza</span></div>
@@ -39,7 +39,7 @@ const Home = () => {
         wrapper="a"
       />
     </div>
-    <div className="para"  data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"><p>Experienced front-end developer adept at crafting responsive and visually engaging web interfaces, utilizing
+    <div className="para"  ><p>Experienced front-end developer adept at crafting responsive and visually engaging web interfaces, utilizing
    
    HTML, CSS, JavaScript and ReactJs to deliver seamless user experiences. Proficient in translating design
    concepts into functional code, with a strong focus on usability and accessibility.</p></div>
