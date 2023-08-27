@@ -21,19 +21,26 @@ function App() {
  <>
     
       
- < BrowserRouter basename={process.env.PUBLIC_URL}>
+ < BrowserRouter >
  <Navigation></Navigation>
       
-
+ <Home></Home>
+ {/* <Skills></Skills>
+ <Projects></Projects>
+ <About></About> */}
 <Routes>
 
-  <Route exact path='/' element={<Home></Home>}>  </Route>
+  {/* <Route exact path='/' element={<Home></Home>}>  </Route> */}
 
 </Routes>
 
  </BrowserRouter>
+ {/* <Home></Home> */}
  <Footer></Footer>
  
+
+
+
 
 
  </>

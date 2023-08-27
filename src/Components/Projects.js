@@ -31,8 +31,8 @@ return(
       <div className="info">{val.title}
       
       <div className="git">
-     <a href={val.live}><button> <i class="fa fa-eye"> </i>View Live</button></a>
-     <a href={val.github}> <button> <i class="fa fa-github"></i>Code</button></a>
+     <a href={val.live}><button> <i className="fa fa-eye"> </i>View Live</button></a>
+     <a href={val.github}> <button> <i className="fa fa-github"></i>Code</button></a>
 
       </div>
       </div>

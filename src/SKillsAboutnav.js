@@ -52,12 +52,12 @@ setskills(false)
     </div>
     <div className="rightskils" data-aos='flip-up'>
        <div className={edu?"education":"hideedu"}>
-       <div className="heading"><h1>Computer Engineering</h1></div>
+       <div className="heading"><h1>Civil Engineering</h1></div>
         <div className="university"><h4>University of Engineering and Technonoly Taxila</h4></div>
         <div className="eduinfo">
             <ul>
                 <li>I am Student of Computer Engineering and Currently in %th Semester. </li>
-                <li>Computer Engineer responsibilities include designing, testing, and inspecting all software used within an organization's computer system. Ultimately, you will be responsible for upgrading various types of hardware like routers and motherboards as needed.</li>
+                <li>Civil Engineer responsibilities include designing, testing, and inspecting all software used within an organization's computer system. Ultimately, you will be responsible for upgrading various types of hardware like routers and motherboards as needed.</li>
                 <li>Studied Major Courses related to Programming i-e C++ , Data Structures ,
                     Object Oriented Programming (OOP)
                 </li>

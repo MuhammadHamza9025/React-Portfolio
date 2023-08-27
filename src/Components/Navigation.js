@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom'
 import View from './View'
 
 const Navigation = () => {
@@ -21,7 +22,7 @@ setopen(false)
     <div className={nav?'navbar nav' :' navbar notactive'}>
         <ul className='ul' >
 
-            <li><Link to="Home" onClick={closenav}>Home</Link></li>
+            <li><NavLink><Link to="Home" onClick={closenav}>Home</Link></NavLink></li>
             <li><Link to="About"onClick={closenav}>About</Link></li>
             <li><Link to="Contact"onClick={closenav}>Skills</Link></li>
             <li><Link to='Projects'onClick={closenav}>Projects</Link></li>
